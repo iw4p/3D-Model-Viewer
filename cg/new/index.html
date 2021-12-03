@@ -7,7 +7,7 @@
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
     <style>
         model-viewer {
-            height: auto;
+            height: 85vh;
             width: auto;
         }
     </style>
@@ -32,6 +32,8 @@
       <button class="slide selected" onclick="switchSrc(this, 'Chair')" style="background-image: url('../../assets/models/Chair.png');">
 
       </button><button class="slide" onclick="switchSrc(this, 'Mixer')" style="background-image: url('../../assets/models/Mixer.png');">
+
+      </button><button class="slide" onclick="switchSrc(this, 'DamagedHelmet')" style="background-image: url('../../assets/models/DamagedHelmet.png');">
 
       </button><button class="slide" onclick="switchSrc(this, 'GeoPlanter')" style="background-image: url('../../assets/models/GeoPlanter.png');">
       
@@ -82,7 +84,7 @@
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
-    top: 15%;
+    bottom: 132px;
     padding: 0px 16px 0px 60px;
     font-family: Roboto Regular, Helvetica Neue, sans-serif;
     font-size: 40px;
@@ -92,6 +94,7 @@
     border-radius: 10px;
     border: 1px solid #DADCE0;
   }
+  
 
   #ar-button:active {
     background-color: #E8EAED;
@@ -144,10 +147,11 @@
   }
 
   .slider {
-    text-align:center;
-    position: relative;
-    height: 730px;
-    margin: auto;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 16px;
   }
 
   .slides {
@@ -161,8 +165,8 @@
   .slide {
     scroll-snap-align: start;
     flex-shrink: 0;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
