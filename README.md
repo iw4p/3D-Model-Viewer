@@ -9,7 +9,7 @@ You can watch your model on the browser or also in the space (if your device sup
 
 ## Demo
 
-https://iw4p.github.io/3D-Model-Viewer/
+[3D-Model-Viewer online demo](https://iw4p.github.io/3D-Model-Viewer/)
 
 For experience AR mode, open it on your Mobile device.
 
