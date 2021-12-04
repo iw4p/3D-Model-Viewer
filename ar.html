@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Import the component -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <style>
+        model-viewer {
+            height: 50vh;
+            width: 50vw;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<model-viewer id="model-viewer" src="hof.glb" ar=""  ar-modes="webxr scene-viewer quick-look fallback" ar-scale="auto" alt="hof" ios-src="hof.usdz" camera-controls="">
+
+</model-viewer>
+    hof
+
+<model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" ar
+              ar-modes="webxr scene-viewer quick-look fallback"
+              ar-scale="auto" magic-leap camera-controls alt="A 3D model of an astronaut"
+              ios-src="scene6717a4tachn0e00k.usdz"></model-viewer>
+mit usdz und glb
+<model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" id="lazy-load" reveal="interaction" ar
+              ar-modes="webxr scene-viewer quick-look fallback"
+              ar-scale="auto" alt="A 3D model of an astronaut"
+              poster="https://d25jbgvg9kmxad.cloudfront.net/i/500x500/catalogue/zmcd74ssvus3tnuy/assets/bb44d038af5d9ef7788451d1d3c56d8d2016d8cb.jpg">
+
+
+</model-viewer>
+mit glb
+<model-viewer ar
+              ar-modes="webxr scene-viewer quick-look fallback" src=""
+              poster="https://d25jbgvg9kmxad.cloudfront.net/i/500x500/catalogue/zmcd74ssvus3tnuy/assets/bb44d038af5d9ef7788451d1d3c56d8d2016d8cb.jpg"
+              ar-scale="auto" magic-leap camera-controls alt="A 3D model of an astronaut"
+              ios-src="https://mediacdn.loadbee.com/catalogue/dzru3wksbw5mvvkw/models/MXMaster3GraphiteWebAR.usdz"></model-viewer>
+nur mit usdz
+
+<model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" reveal="interaction" ar
+              poster="https://d25jbgvg9kmxad.cloudfront.net/i/500x500/catalogue/zmcd74ssvus3tnuy/assets/bb44d038af5d9ef7788451d1d3c56d8d2016d8cb.jpg"
+              ar-modes="scene-viewer quick-look fallback"
+              ar-scale="auto" alt="A 3D model of an astronaut"
+              ios-src="https://mediacdn.loadbee.com/catalogue/dzru3wksbw5mvvkw/models/MXMaster3GraphiteWebAR.usdz"></model-viewer>
+
+final
+
+
+</body>
+</html>
+
