@@ -7,6 +7,14 @@ You can watch your model on the browser or also in the space (if your device sup
 
 <img src="https://user-images.githubusercontent.com/30632761/144708444-6b4ce10b-02e2-4d84-aed5-a3b53b11e40d.PNG" width="200"/> <img src="https://user-images.githubusercontent.com/30632761/144708447-6c999e2c-e9dc-44a9-bdcc-d1062187f3cf.PNG" width="200"/> <img src="https://user-images.githubusercontent.com/30632761/144708449-d69e1b74-cc5d-48d2-a6b7-c4776ab83398.PNG" width="200"/> <img src="https://user-images.githubusercontent.com/30632761/144708454-f7155630-b281-4e10-a48d-bf38a32e265e.PNG" width="200"/>
 
+## Demo
+
+https://iw4p.github.io/3D-Model-Viewer/
+
+For experience AR mode, open it on your Mobile device.
+
+
+
 ## Installation
 
 
